@@ -1,0 +1,17 @@
+node_modules
+client/dist-local/
+client/dist-wifi/
+.env
+.env.local
+.env.*.local
+.DS_Store
+*.log
+server/certs/*
+!server/certs/.gitkeep
+server/data/*.json
+server/data/*.sqlite
+server/data/*.sqlite-shm
+server/data/*.sqlite-wal
+server/uploads/*.xlsx
+server/uploads/*.xls
+server/backups/

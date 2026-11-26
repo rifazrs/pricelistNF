@@ -1,0 +1,16 @@
+{
+  "name": "excel-price-app",
+  "version": "1.0.0",
+  "private": true,
+  "description": "React + Node.js Excel upload, preview, edit, recalculate and download app.",
+  "scripts": {
+    "install:all": "npm install && npm --prefix server install && npm --prefix client install",
+    "build:hosted": "node scripts/build-hosted.js",
+    "dev": "node scripts/start-dev.js",
+    "server": "npm --prefix server run dev",
+    "client": "npm --prefix client run dev"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
